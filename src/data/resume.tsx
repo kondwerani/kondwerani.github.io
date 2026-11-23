@@ -16,10 +16,10 @@ export const DATA = {
   name: "Kondwerani Kamsesa",
   initials: "DV",
   url: "https://kondwerani.github.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  location: "Malawi",
+  locationLink: "https://www.google.com/maps/place/malawi",
   description:
-    "Full Stack Developer. I love building things and helping people. Very active on Twitter.",
+    "Full Stack Developer. I love building things and helping people.",
   summary:
     "Since 2018, I graduated from University, straight into fulltime building and scaling national level systems and applications. In the past, [I pursued a degree in Management Information Systems](https://www.mubas.ac.mw/), held and graduated from apprenticehip at [ITEC Malawi](https://web.facebook.com/itecmalawi) and, built and deployed an Agri-Tech platform for [GGEM Farming](https://ggemfarming.com/) Malawi completed in a 3 year period modularly and on time. I also had the pleasure of being a part of the genesis of the MANEB digital system. [MANEB](https://www.maneb.edu.mw/).",
   avatarUrl: "/me.png",
@@ -29,7 +29,6 @@ export const DATA = {
     { name: "Typescript", icon: Typescript },
     { name: "Node.js", icon: Nodejs },
     { name: "Python", icon: Python },
-    { name: "Go", icon: Golang },
     { name: "Postgres", icon: Postgresql },
     { name: "Docker", icon: Docker },
     // { name: "Kubernetes", icon: Kubernetes },
@@ -41,19 +40,19 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "kamsesakond@outlook.com",
+    tel: "+265998681991",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Kond94",
         icon: Icons.github,
-        navbar: true,
+        navbar: false,
       },
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/kondwerani-kamsesa-04486514a/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -63,13 +62,13 @@ export const DATA = {
         url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
 
-        navbar: true,
+        navbar: false,
       },
       Youtube: {
         name: "Youtube",
         url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
@@ -159,17 +158,15 @@ Currently, we am focussed on solidifying the eco-systems data foundation prepari
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "The GGEM System is a collection of aplications mainly a CRM, Mobile Application and backend GCP services that work in Unison to provide a digital backbone for the organisation. These tools help the client track daily activities in the business, extract reprts that help with planning and decisions.",
       technologies: [
         "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Javascript",
+        "React",
+        "react-native",
+        "firebase",
+        "GCP",
+        "firestore"      ],
       links: [
         {
           type: "Website",
@@ -187,16 +184,13 @@ Currently, we am focussed on solidifying the eco-systems data foundation prepari
       dates: "June 2023 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        " This project entails collecting details of approximately 600,000 candidates each year, creating a database and producing an ID card for them. I was part of the team that designed and created the system used; Initially a PHP frontend with MySQL backend but switched to a JAVA font-end.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "php",
+        "Javascript",
+        "MySQL",
+        "Excel",
+        
       ],
       links: [
         {
@@ -214,22 +208,19 @@ Currently, we am focussed on solidifying the eco-systems data foundation prepari
       video: "MANEB.mp4",
     },
     {
-      title: "OH Installation",
+      title: "Koche Hospital - OH Installation",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Successfuffly installed and got operational an open source Hospital Management System in Mangochi, Malawi. The installation included an accounting module, dispensary, pharmacy, laboratory, wards, OPD and management modules.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "open-hospital",
+        "networking",
+        "basic-routing",
+        "basic-switching",
+        "jasper-reports",
+       
       ],
       links: [
         {
